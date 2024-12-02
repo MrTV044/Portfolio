@@ -1,45 +1,48 @@
 import React from "react";
+import "./home.css";
 
 export default function First_Page() {
   return (
     <>
       <div>
-        {/* nav */}
-        <nav>
-          <div>
-            <ul>
-              <a href="">Home</a>
-              <a href="">Portfolio</a>
-              <a href="">Experience</a>
-              {/* Experience will include testimonials */}
-              <a href="">Contact Us</a>
-            </ul>
-          </div>
-        </nav>
-
         {/* Hero section */}
-        <div>
+        <div className="hero">
           {/* introduction */}
           <div>
-            <h1 className="text-red-900">Arifin Santoso</h1>
-            <p>
+            <h1 className="text-6xl font-medium mt-5">Arifin Santoso</h1>
+            <p className="mt-4 text-lg ml-4">
               Indonesian based Fullstack Developer creating user focused
               websites
             </p>
-            <a href="">Contact Me</a>
-            <a href="">LinkedIn</a>
-            <a href="">Github</a>
+            <div className="space-x-4 ml-5">
+              <button>
+                <a href="./contact-me">Contact Me</a>
+              </button>
+              <button>
+                <a href="https://www.linkedin.com/in/arifincahyadisantoso/">
+                  LinkedIn
+                </a>
+              </button>
+              <button>
+                <a href="https://github.com/MrTV044">Github</a>
+              </button>
+            </div>
           </div>
+
           {/* picture */}
-          <div>
-            {/* <img src="src/assets/headshot.png" alt="Profile picture" /> */}
+          <div className="rounded overflow-hidden w-52 h-52 ml-5 rounded-2xl">
+            <img
+              className=""
+              src="src/assets/headshot.png"
+              alt="Profile picture"
+            />
           </div>
         </div>
 
         {/* about me */}
-        <h2>About Me</h2>
-        <div>
-          <p>Brief Biography: </p>
+        <div className="section2">
+          <h2 className="header">About Me</h2>
+          <p className="mt-0">Brief Biography: </p>
           <p>
             I am a front-end developer based in Sydney looking for exciting
             opportunities. Has Mechanical Engineering background. Likes to focus
@@ -49,15 +52,15 @@ export default function First_Page() {
             football, photography and playing Valorant. Learning more to improve
             skill
           </p>
-          <div>
-            <p>Core Skills</p>
+          <div className="core-key">
+            <p className="mt-5">Core Skills:</p>
             <ul>
               <li>Javascript</li>
               <li>React.js</li>
               <li>Tailwind CSS</li>
               <li>Pindahkan Gunung</li>
             </ul>
-            <p>Key Values</p>
+            <p className="mt-5">Key Values:</p>
             <ul>
               <li>Timeliness</li>
               <li>Attention to Detail</li>
@@ -67,8 +70,8 @@ export default function First_Page() {
         </div>
 
         {/* skills section */}
-        <div>
-          <h3>Skills</h3>
+        <div className="section2 ">
+          <h3 className="header">Skills</h3>
           <ul>
             <li>
               Front-End Skills: Technologies like HTML, CSS, JavaScript, React,
@@ -84,6 +87,9 @@ export default function First_Page() {
             </li>
           </ul>
         </div>
+
+        {/* Contact Me! */}
+
       </div>
     </>
   );

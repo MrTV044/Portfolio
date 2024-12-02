@@ -7,7 +7,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "bebas-neue": ["bebas neue", "sans serif"],
+        "manrope": ["manrope", "sans serif"],
+      },
+    },
   },
   plugins: [],
 };

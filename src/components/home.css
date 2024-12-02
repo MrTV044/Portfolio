@@ -1,0 +1,25 @@
+.hero {
+  @apply bg-neutral-800 flex justify-end p-7  text-gray-300 text-right w-full;
+}
+
+.hero button {
+  @apply rounded font-manrope;
+}
+
+.hero button:hover {
+  @apply text-green-600;
+}
+
+.header {
+  @apply text-2xl text-red-600 font-semibold mt-5;
+}
+
+.core-key li {
+  @apply list-disc ml-4;
+}
+
+.section2 {
+  @apply m-5;
+}
+
+
