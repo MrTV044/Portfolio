@@ -7,7 +7,7 @@ import Home from "./components/home.tsx";
 import Portfolio from "./components/portfolio.tsx";
 import Experience from "./components/experience.tsx";
 // import Contact_me from "./components/contact-me.tsx";
-import MainLayout from "./MainLayout/mainlayout.tsx";
+import MainLayout from "./MainLayout/MainLayout.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

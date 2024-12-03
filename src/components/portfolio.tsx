@@ -3,20 +3,51 @@ import React from "react";
 export default function Portfolio() {
   return (
     <>
-      <h1 className="mb-11 text-4xl font-manrope ml-5 mt-11 font-semibold">Portfolio</h1>
-      <div className="flex gap-x-52">
-        <img src="" alt="" />
-        <p className="ml-5">Forms</p>
-        <p className="mr-5">
+      <h1 className="mb-11 text-4xl font-manrope ml-20 mt-11 font-bold">
+        Portfolio
+      </h1>
+
+      {/* /* ---------------------------------- forms --------------------------------- */}
+
+      <div className=" flex gap-x-36 items-center ml-24">
+        <a href="https://formpurwa.vercel.app/">
+          <img
+            className="overflow-hidden mb-10"
+            src="src/assets/Screen Shot 2024-12-03 at 9.24.26 AM.png"
+            alt=""
+          />
+        </a>
+        <a
+          className=" hover:text-green-600 text-xl pb-5"
+          href="https://formpurwa.vercel.app/"
+        >
+          Forms
+        </a>
+        <p className="mr-5 mb-5">
           Teamed up with a designer to breathe life into a promotional webpage
           for our beloved show, Adventure Time. Delivered a fully responsive
           design with dynamic content capabilities, seamlessly integrating a
           newsletter feature to keep fans updated with the latest adventures.
         </p>
       </div>
-      <div className="flex gap-x-52 mt-10">
-        <img src="" alt="" />
-        <p className="ml-5">Contact Card</p>
+      {/* /* ------------------------------ contact card ------------------------------ */}
+
+      <div className="border border-solid border-neutral-200"></div>
+      <div className="flex gap-x-28  mt-10 items-center ml-24">
+        <a href="https://profile-arifin.vercel.app">
+          <img
+            className="overflow-hidden mb-10 w-full"
+            src="src/assets/Screen Shot 2024-12-03 at 9.24.56 AM.png"
+            alt=""
+          />
+        </a>
+
+        <a
+          className="hover:text-green-600 :"
+          href="https://profile-arifin.vercel.app"
+        >
+          <p className="min-w-max text-xl"> Contact Card</p>
+        </a>
         <p className="mr-5">
           Mastered CSS Grid complexities in building an innovative news
           homepage, navigating intricate design decisions for a seamless user

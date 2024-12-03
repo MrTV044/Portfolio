@@ -22,4 +22,10 @@
   @apply m-5;
 }
 
+.experience li {
+  margin: 5px;
+}
 
+.experience-title {
+  @apply font-semibold text-xl;
+}
