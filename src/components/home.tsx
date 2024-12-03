@@ -14,17 +14,31 @@ export default function First_Page() {
               Indonesian based Fullstack Developer creating user focused
               websites
             </p>
-            <div className="space-x-4 ml-5">
+            <div className="space-x-4 flex justify-end">
               <button>
                 <a href="./contact-me">Contact Me</a>
               </button>
-              <button>
+              <button className="flex items-center gap-0">
                 <a href="https://www.linkedin.com/in/arifincahyadisantoso/">
-                  LinkedIn
+                  {/*
+                    <img
+                      className="w-10"
+                      src="src/assets/pngwing.com.png"
+                      alt=""
+                    />
+                   */}
                 </a>
+                <div>LinkedIn</div>
               </button>
-              <button>
-                <a href="https://github.com/MrTV044">Github</a>
+              <button className="flex items-center gap-0">
+                <a href="https://github.com/MrTV044">
+                  {/* <img
+                    className="w-10"
+                    src="src/assets/github-logo.png"
+                    alt=""
+                  /> */}
+                </a>
+                <div>Github</div>
               </button>
             </div>
           </div>
@@ -89,7 +103,6 @@ export default function First_Page() {
         </div>
 
         {/* Contact Me! */}
-
       </div>
     </>
   );

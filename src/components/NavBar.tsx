@@ -6,16 +6,16 @@ export default function NavBar() {
       <nav>
         <ul className="flex gap-10 justify-center pt-5 pb-5 text-2xl font-thin bg-neutral-800 text-white">
           <li className=" hover:text-green-600">
-            <NavLink to="/home">Home</NavLink>
+            <a href="/home">Home</a>
           </li>
           <li className=" hover:text-green-600">
-            <NavLink to="/portfolio"> Portfolio</NavLink>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li className=" hover:text-green-600">
-            <NavLink to="/experience"> Experience</NavLink>
+            <a href="/experience">Experience</a>
           </li>
           <li className=" hover:text-green-600">
-            <NavLink to="#contact-me-id">Contact Me</NavLink>
+            <a href="#contact-me-id">Contact Me</a>
           </li>
         </ul>
       </nav>

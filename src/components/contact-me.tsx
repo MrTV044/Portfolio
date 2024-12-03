@@ -6,13 +6,14 @@ export default function Contact_me() {
     <>
       <div className="contact-me" id="contact-me-id">
         <div>
-          <h1 className="text-2xl text-green-600 pb-2">Let's Connect!</h1>
+          <h1 className="text-3xl text-green-600 pb-2">Let's Connect!</h1>
           <p>
             Say hello at <a href="">arifincahyadisantoso@gmail.com</a>
           </p>
           <p>
             For more info, here's my <a href="">resume</a>
           </p>
+          
         </div>
         <div>
           <form action="">
