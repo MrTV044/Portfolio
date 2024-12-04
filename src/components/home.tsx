@@ -1,4 +1,5 @@
 import "./home.css";
+import profilePic from "../assets/headshot.png";
 
 export default function First_Page() {
   return (
@@ -44,11 +45,7 @@ export default function First_Page() {
 
           {/* picture */}
           <div className="overflow-hidden w-52 h-52 ml-5 rounded-2xl">
-            <img
-              className=""
-              src="src/assets/headshot.png"
-              alt="Profile picture"
-            />
+            <img className="" src={profilePic} alt="Profile picture" />
           </div>
         </div>
 
