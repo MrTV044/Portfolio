@@ -1,4 +1,4 @@
 .contact-me {
-    @apply flex gap-x-40 justify-center mt-20  bg-neutral-800 text-white 
+  @apply flex gap-x-40 justify-center mt-20  bg-neutral-800 text-white 
     pt-20 pb-20;
-  }
+}

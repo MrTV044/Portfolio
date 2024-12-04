@@ -1,4 +1,3 @@
-import React from "react";
 import "./home.css";
 
 export default function First_Page() {
@@ -44,7 +43,7 @@ export default function First_Page() {
           </div>
 
           {/* picture */}
-          <div className="rounded overflow-hidden w-52 h-52 ml-5 rounded-2xl">
+          <div className="overflow-hidden w-52 h-52 ml-5 rounded-2xl">
             <img
               className=""
               src="src/assets/headshot.png"

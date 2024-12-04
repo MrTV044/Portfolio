@@ -1,4 +1,3 @@
-import React from "react";
 import "./contact-me.css";
 
 export default function Contact_me() {
@@ -13,7 +12,6 @@ export default function Contact_me() {
           <p>
             For more info, here's my <a href="">resume</a>
           </p>
-          
         </div>
         <div>
           <form action="">
