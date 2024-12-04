@@ -15,23 +15,27 @@ export default function Contact_me() {
         </div>
         <div>
           <form action="">
-            <p>Name</p>
-            <input className="rounded" type="text" required />
-            <p className="mt-3">Email</p>
-            <input className="rounded" type="email" required />
-            <p className="mt-3">
+            <label>
               {" "}
-              <label htmlFor="subject">Subject</label>
-            </p>
-
-            <input className="rounded subject" type="text" required />
-            <p className="mt-3">Message</p>
-            <textarea
-              className="rounded w-150 l-150"
-              name=""
-              id=""
-              required
-            ></textarea>
+              <p>Name</p>
+              <input className="rounded" type="text" required />
+              <p className="mt-3">Email</p>
+              <input className="rounded" type="email" required />
+              <p className="mt-3">
+                {" "}
+                <label htmlFor="subject">Subject</label>
+              </p>
+            </label>
+            <label>
+              <input className="rounded subject" type="text" required />
+              <p className="mt-3">Message</p>
+              <textarea
+                className="rounded w-150 l-150"
+                name=""
+                id=""
+                required
+              ></textarea>
+            </label>
             <br />
             <button className="border-solid border w-20 h-8 border-white rounded-full mt-5">
               Submit
