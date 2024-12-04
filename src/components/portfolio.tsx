@@ -1,3 +1,6 @@
+import Form from "../assets/Screen Shot 2024-12-03 at 9.24.26 AM.png";
+import contactCard from "../assets/Screen Shot 2024-12-03 at 9.24.56 AM.png";
+
 export default function Portfolio() {
   return (
     <>
@@ -9,11 +12,7 @@ export default function Portfolio() {
 
       <div className=" flex gap-x-36 items-center ml-24">
         <a href="https://formpurwa.vercel.app/">
-          <img
-            className="overflow-hidden mb-10"
-            src="src/assets/Screen Shot 2024-12-03 at 9.24.26 AM.png"
-            alt=""
-          />
+          <img className="overflow-hidden mb-10" src={Form} alt="Form" />
         </a>
         <a
           className=" hover:text-green-600 text-xl pb-5"
@@ -35,8 +34,8 @@ export default function Portfolio() {
         <a href="https://profile-arifin.vercel.app">
           <img
             className="overflow-hidden mb-10 w-full"
-            src="src/assets/Screen Shot 2024-12-03 at 9.24.56 AM.png"
-            alt=""
+            src={contactCard}
+            alt="Contact-Card"
           />
         </a>
 
