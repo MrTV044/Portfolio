@@ -15,10 +15,10 @@ export default function First_Page() {
               websites
             </p>
             <div className="space-x-4 flex justify-end">
-              <button className="p-5 text-xl">
+              <button>
                 <a href="./contact-me">Contact Me</a>
               </button>
-              <button className="flex items-center gap-0 p-5 text-xl">
+              <button className="flex items-center gap-0">
                 <a href="https://www.linkedin.com/in/arifincahyadisantoso/">
                   {/*
                     <img
@@ -30,7 +30,7 @@ export default function First_Page() {
                 </a>
                 <div>LinkedIn</div>
               </button>
-              <button className="flex items-center gap-0 p-5 text-xl">
+              <button className="flex items-center gap-0">
                 <a href="https://github.com/MrTV044">
                   {/* <img
                     className="w-10"
@@ -38,7 +38,7 @@ export default function First_Page() {
                     alt=""
                   /> */}
                 </a>
-                <div className="">Github</div>
+                <div>Github</div>
               </button>
             </div>
           </div>
