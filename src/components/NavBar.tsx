@@ -4,7 +4,7 @@ export default function NavBar() {
       <nav>
         <ul className="flex gap-10 justify-center pt-5 pb-5 text-2xl font-thin bg-neutral-800 text-white">
           <li className=" hover:text-green-600">
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className=" hover:text-green-600">
             <a href="/portfolio">Portfolio</a>
