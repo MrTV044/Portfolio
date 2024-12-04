@@ -11,12 +11,13 @@ export default function Portfolio() {
       {/* /* ---------------------------------- forms --------------------------------- */}
 
       <div className=" flex gap-x-36 items-center ml-24">
-        <a href="https://formpurwa.vercel.app/">
+        <a href="https://formpurwa.vercel.app/" aria-label="my portfolio">
           <img className="overflow-hidden mb-10" src={Form} alt="Form" />
         </a>
         <a
           className=" hover:text-green-600 text-xl pb-5"
           href="https://formpurwa.vercel.app/"
+          aria-label="my portfolio"
         >
           Forms
         </a>
@@ -31,7 +32,7 @@ export default function Portfolio() {
 
       <div className="border border-solid border-neutral-200"></div>
       <div className="flex gap-x-28  mt-10 items-center ml-24">
-        <a href="https://profile-arifin.vercel.app">
+        <a href="https://profile-arifin.vercel.app" aria-label="my portfolio">
           <img
             className="overflow-hidden mb-10 w-full"
             src={contactCard}
@@ -42,6 +43,7 @@ export default function Portfolio() {
         <a
           className="hover:text-green-600 :"
           href="https://profile-arifin.vercel.app"
+          aria-label="my portfolio"
         >
           <p className="min-w-max text-xl"> Contact Card</p>
         </a>

@@ -16,10 +16,15 @@ export default function First_Page() {
             </p>
             <div className="space-x-4 flex justify-end">
               <button>
-                <a href="./contact-me">Contact Me</a>
+                <a href="./contact-me" aria-label="contact me">
+                  Contact Me
+                </a>
               </button>
               <button className="flex items-center gap-0">
-                <a href="https://www.linkedin.com/in/arifincahyadisantoso/">
+                <a
+                  href="https://www.linkedin.com/in/arifincahyadisantoso/"
+                  aria-label="my linkedin page"
+                >
                   {/*
                     <img
                       className="w-10"
@@ -31,7 +36,10 @@ export default function First_Page() {
                 <div>LinkedIn</div>
               </button>
               <button className="flex items-center gap-0">
-                <a href="https://github.com/MrTV044">
+                <a
+                  href="https://github.com/MrTV044"
+                  aria-label="my github page"
+                >
                   {/* <img
                     className="w-10"
                     src="src/assets/github-logo.png"
@@ -45,7 +53,7 @@ export default function First_Page() {
 
           {/* picture */}
           <div className="overflow-hidden w-52 h-52 ml-5 rounded-2xl">
-            <img className="" src={profilePic} alt="Profile picture" />
+            <img src={profilePic} alt="Profile picture" />
           </div>
         </div>
 
