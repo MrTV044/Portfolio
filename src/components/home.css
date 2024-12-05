@@ -29,3 +29,11 @@
 .experience-title {
   @apply font-semibold text-xl;
 }
+
+.experience-testi {
+  @apply border-2 border-solid border rounded-xl p-5 border-gray-300;
+}
+
+.experience-testi h1 {
+  @apply text-xl mb-5;
+}

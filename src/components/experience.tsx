@@ -3,7 +3,8 @@ import "./home.css";
 export default function Experience() {
   return (
     <>
-      <div className="flex gap-40 m-auto w-fit mt-10">
+      {/* experience */}
+      <div className="flex gap-52 m-auto w-fit mt-10">
         <div className="mb-11 text-4xl font-manrope  font-bold">Experience</div>
         <div className="experience flex-col flex gap-10">
           <div>
@@ -52,6 +53,50 @@ export default function Experience() {
               <li>Tracked emerging marketing & industry trends.</li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      {/* Testimonials */}
+
+      <h1
+        style={{ width: "fit-content" }}
+        className="m-auto mt-16 mb-10 text-4xl font-manrope font-bold min-w-fit"
+      >
+        Testimonials
+      </h1>
+
+      <div className="flex ml-24 mr-24 justify-center gap-x-28">
+        <div className="experience-testi ">
+          <h1>
+            John Smith, <br /> Binance Head of Engineering
+          </h1>
+          <p>
+            "Arifin is an exceptional Web3 engineer with deep expertise in
+            JavaScript, React.js, and Node.js. His problem-solving skills and
+            ability to integrate dApps make him an invaluable team member."
+          </p>
+        </div>
+
+        <div className="experience-testi">
+          <h1>
+            John Smith, <br /> Smart Contract Manager
+          </h1>
+          <p>
+            "I've worked with Arifin for two years. His versatility across
+            technologies like Go, PHP, and C++ and his expertise in Web3 make
+            him a key asset to any team."
+          </p>
+        </div>
+
+        <div className="experience-testi">
+          <h1>
+            Sarah Lee, <br /> CEO of Decentralized Solutions
+          </h1>
+          <p>
+            "Working with Arifin on our Web3 platform was fantastic. His
+            expertise in React.js, Node.js, and blockchain integration delivered
+            a high-quality product. Highly skilled and reliable!"
+          </p>
         </div>
       </div>
     </>
