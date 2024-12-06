@@ -22,6 +22,11 @@
   @apply mr-32 ml-32 mt-10;
 }
 
+.section2 li {
+  width: fit-content;
+  justify-content: center;
+}
+
 .experience li {
   margin: 5px;
 }

@@ -16,7 +16,7 @@ export default function First_Page() {
             </p>
             <div className="space-x-4 flex justify-end">
               <button>
-                <a href="./contact-me" aria-label="contact me">
+                <a href="#contact-me-id" aria-label="link to contact me page">
                   Contact Me
                 </a>
               </button>
@@ -24,28 +24,14 @@ export default function First_Page() {
                 <a
                   href="https://www.linkedin.com/in/arifincahyadisantoso/"
                   aria-label="my linkedin page"
-                >
-                  {/*
-                    <img
-                      className="w-10"
-                      src="src/assets/pngwing.com.png"
-                      alt=""
-                    />
-                   */}
-                </a>
+                ></a>
                 <div>LinkedIn</div>
               </button>
               <button className="flex items-center gap-0">
                 <a
                   href="https://github.com/MrTV044"
                   aria-label="my github page"
-                >
-                  {/* <img
-                    className="w-10"
-                    src="src/assets/github-logo.png"
-                    alt=""
-                  /> */}
-                </a>
+                ></a>
                 <div>Github</div>
               </button>
             </div>
@@ -96,7 +82,10 @@ export default function First_Page() {
         {/* skills section */}
         <div className="section2 ">
           <h3 className="header">Skills</h3>
-          <ul>
+          <ul
+            style={{ width: "content-fit" }}
+            className="flex flex-col justify-center"
+          >
             <li>
               Front-End Skills: Technologies like HTML, CSS, JavaScript, React,
               Angular
@@ -111,8 +100,6 @@ export default function First_Page() {
             </li>
           </ul>
         </div>
-
-        {/* Contact Me! */}
       </div>
     </>
   );
