@@ -65,8 +65,8 @@ export default function Experience() {
         Testimonials
       </h1>
 
-      {/* <div className="flex ml-24 mr-24 justify-center gap-x-28">
-        <div className="experience-testi ">
+      <div className="flex ml-24 mr-24 justify-center gap-x-28">
+        <div className="experience-testi">
           <h1>
             John Smith, <br /> Binance Head of Engineering
           </h1>
@@ -98,7 +98,7 @@ export default function Experience() {
             a high-quality product. Highly skilled and reliable!"
           </p>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
