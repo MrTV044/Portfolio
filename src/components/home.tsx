@@ -58,18 +58,20 @@ export default function First_Page() {
         </div>
 
         {/* about me */}
-        <div className="section2">
+        <div className="section2 ">
           <h2 className="header">About Me</h2>
-          <p className="mt-0">Brief Biography: </p>
-          <p>
-            I am a front-end developer based in Sydney looking for exciting
-            opportunities. Has Mechanical Engineering background. Likes to focus
-            on accessibility when developing. Passionate and curious about
-            solving problems. Currently, I’m exploring Reactjs, Webflow and a
-            bit of Designing. While I am not programming, I enjoy playing
-            football, photography and playing Valorant. Learning more to improve
-            skill
-          </p>
+          <div className="flex justify-center gap-x-10 mt-5">
+            <p className="mt-0 text-lg">Brief Biography:</p>
+            <p style={{ width: "fit-content" }}>
+              I am a front-end developer based in Sydney looking for exciting
+              opportunities. Has Mechanical Engineering background. Likes to
+              focus on accessibility when developing. Passionate and curious
+              about solving problems. Currently, I’m exploring Reactjs, Webflow
+              and a bit of Designing. While I am not programming, I enjoy
+              playing football, photography and playing Valorant. Learning more
+              to improve skill
+            </p>
+          </div>
           <div className="core-key">
             <p className="mt-5">Core Skills:</p>
             <ul>

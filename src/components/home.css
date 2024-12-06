@@ -11,7 +11,7 @@
 }
 
 .header {
-  @apply text-2xl text-red-600 font-semibold mt-5;
+  @apply text-2xl text-zinc-900 font-semibold mt-5;
 }
 
 .core-key li {
