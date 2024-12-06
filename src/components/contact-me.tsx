@@ -1,6 +1,20 @@
+import { useState } from "react";
 import "./contact-me.css";
 
 export default function Contact_me() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  function Delete(e: React.FormEvent) {
+    e.preventDefault();
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  }
+
   return (
     <>
       <div className="contact-me" id="contact-me-id">
@@ -14,22 +28,41 @@ export default function Contact_me() {
           </p>
         </div>
         <div>
-          <form action="">
+          <form action="" onSubmit={Delete}>
             <label>
-              {" "}
               <p>Name</p>
-              <input className="rounded" type="text" required />
+              <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="rounded"
+                type="text"
+                required
+              />
               <p className="mt-3">Email</p>
-              <input className="rounded" type="email" required />
+              <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="rounded"
+                type="email"
+                required
+              />
               <p className="mt-3">
                 {" "}
                 <label htmlFor="subject">Subject</label>
               </p>
             </label>
             <label>
-              <input className="rounded subject" type="text" required />
+              <input
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+                className="rounded subject"
+                type="text"
+                required
+              />
               <p className="mt-3">Message</p>
               <textarea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="rounded w-150 l-150"
                 name=""
                 id=""
@@ -37,7 +70,10 @@ export default function Contact_me() {
               ></textarea>
             </label>
             <br />
-            <button className="border-solid border w-20 h-8 border-white rounded-full mt-5">
+            <button
+              
+              className="border-solid border w-20 h-8 border-white rounded-full mt-5"
+            >
               Submit
             </button>
           </form>

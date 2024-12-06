@@ -24,15 +24,19 @@ export default function First_Page() {
                 <a
                   href="https://www.linkedin.com/in/arifincahyadisantoso/"
                   aria-label="my linkedin page"
-                ></a>
-                <div>LinkedIn</div>
+                  target="_blank"
+                >
+                  Linkedin
+                </a>
               </button>
               <button className="flex items-center gap-0">
                 <a
                   href="https://github.com/MrTV044"
                   aria-label="my github page"
-                ></a>
-                <div>Github</div>
+                  target="_blank"
+                >
+                  Github
+                </a>
               </button>
             </div>
           </div>
@@ -42,12 +46,10 @@ export default function First_Page() {
             <img src={profilePic} alt="Profile picture" />
           </div>
         </div>
-
-        {/* about me */}
+        w{/* about me */}
         <div className="section2 ">
           <h2 className="header">About Me</h2>
           <div className="flex justify-center gap-x-10 ">
-            <p className="mt-0 text-lg">Brief Biography:</p>
             <p style={{ width: "fit-content" }}>
               I am a front-end developer based in Sydney looking for exciting
               opportunities. Has Mechanical Engineering background. Likes to
@@ -58,7 +60,7 @@ export default function First_Page() {
               to improve skill
             </p>
           </div>
-          <div className="core-key flex gap-x-36 justify-center">
+          <div className="core-key flex gap-x-36 justify-center mt-8">
             <div>
               <p className="mt-5">Core Skills:</p>
               <ul>
@@ -78,14 +80,10 @@ export default function First_Page() {
             </div>
           </div>
         </div>
-
         {/* skills section */}
-        <div className="section2 ">
+        <div style={{ width: "content-fit" }} className="section2 mt-10 m-auto">
           <h3 className="header">Skills</h3>
-          <ul
-            style={{ width: "content-fit" }}
-            className="flex flex-col justify-center"
-          >
+          <ul className="m-auto">
             <li>
               Front-End Skills: Technologies like HTML, CSS, JavaScript, React,
               Angular

@@ -22,6 +22,10 @@
   @apply mr-32 ml-32 mt-10;
 }
 
+.section2 p {
+  @apply ml-16 mr-16 text-center;
+}
+
 .section2 li {
   width: fit-content;
   justify-content: center;
