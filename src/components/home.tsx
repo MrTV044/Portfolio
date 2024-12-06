@@ -60,7 +60,7 @@ export default function First_Page() {
         {/* about me */}
         <div className="section2 ">
           <h2 className="header">About Me</h2>
-          <div className="flex justify-center gap-x-10 mt-5">
+          <div className="flex justify-center gap-x-10 ">
             <p className="mt-0 text-lg">Brief Biography:</p>
             <p style={{ width: "fit-content" }}>
               I am a front-end developer based in Sydney looking for exciting
@@ -72,20 +72,24 @@ export default function First_Page() {
               to improve skill
             </p>
           </div>
-          <div className="core-key">
-            <p className="mt-5">Core Skills:</p>
-            <ul>
-              <li>Javascript</li>
-              <li>React.js</li>
-              <li>Tailwind CSS</li>
-              <li>Pindahkan Gunung</li>
-            </ul>
-            <p className="mt-5">Key Values:</p>
-            <ul>
-              <li>Timeliness</li>
-              <li>Attention to Detail</li>
-              <li>Clear Communication</li>
-            </ul>
+          <div className="core-key flex gap-x-36 justify-center">
+            <div>
+              <p className="mt-5">Core Skills:</p>
+              <ul>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Tailwind CSS</li>
+                <li>Pindahkan Gunung</li>
+              </ul>
+            </div>
+            <div>
+              <p className="mt-5">Key Values:</p>
+              <ul>
+                <li>Timeliness</li>
+                <li>Attention to Detail</li>
+                <li>Clear Communication</li>
+              </ul>
+            </div>
           </div>
         </div>
 
