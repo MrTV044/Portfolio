@@ -2,3 +2,8 @@
   @apply flex gap-x-40 justify-center mt-20  bg-neutral-800 text-white 
     pt-20 pb-20;
 }
+
+input,
+textarea {
+  @apply text-black p-1.5;
+}
