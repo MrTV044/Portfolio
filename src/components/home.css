@@ -24,7 +24,8 @@
 
 .section2 li {
   width: fit-content;
-  justify-content: center;
+  justify-content: left;
+  @apply m-auto;
 }
 
 .experience li {

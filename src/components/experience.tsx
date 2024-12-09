@@ -88,7 +88,7 @@ export default function Experience() {
           </p>
         </div>
 
-        <div className="experience-testi">
+        <div className="experience-testi text-red-500 sm:text-blue-500">
           <h1>
             Sarah Lee, <br /> CEO of Decentralized Solutions
           </h1>

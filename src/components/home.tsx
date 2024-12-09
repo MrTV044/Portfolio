@@ -80,12 +80,9 @@ export default function First_Page() {
         </div>
 
         {/* skills section */}
-        <div className="section2 ">
-          <h3 className="header">Skills</h3>
-          <ul
-            style={{ width: "content-fit" }}
-            className="flex flex-col justify-center"
-          >
+        <div className="section2">
+          <h3 className="header ">Skills</h3>
+          <ul style={{ width: "content-fit" }} className="flex flex-col ">
             <li>
               Front-End Skills: Technologies like HTML, CSS, JavaScript, React,
               Angular
