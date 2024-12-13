@@ -15,12 +15,12 @@ export default function First_Page() {
               websites
             </p>
             <div className="space-x-4 flex justify-end">
-              <button>
+              <button className=" p-1">
                 <a href="#contact-me-id" aria-label="link to contact me page">
                   Contact Me
                 </a>
               </button>
-              <button className="flex items-center gap-0">
+              <button className="flex items-center gap-0 p-1">
                 <a
                   href="https://www.linkedin.com/in/arifincahyadisantoso/"
                   aria-label="my linkedin page"
@@ -29,7 +29,7 @@ export default function First_Page() {
                   Linkedin
                 </a>
               </button>
-              <button className="flex items-center gap-0">
+              <button className="flex items-center gap-0 p-1">
                 <a
                   href="https://github.com/MrTV044"
                   aria-label="my github page"
@@ -46,7 +46,7 @@ export default function First_Page() {
             <img src={profilePic} alt="Profile picture" />
           </div>
         </div>
-        w{/* about me */}
+        {/* about me */}
         <div className="section2 ">
           <h2 className="header">About Me</h2>
           <div className="flex justify-center gap-x-10 ">
