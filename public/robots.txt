@@ -1,0 +1,26 @@
+# robots.txt for Vite Project
+
+# Allow all bots to crawl the entire website
+User-agent: *
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+Disallow: /test/
+Disallow: /tests/
+Disallow: /dev/
+
+# Allow bots to crawl important assets and pages
+Allow: /assets/
+Allow: /public/
+
+# Block specific file types (e.g., source maps, logs, or other unimportant files)
+Disallow: /*.map$
+Disallow: /*.log$
+
+# Sitemap Location (Add your sitemap location here)
+Sitemap: https://portfolio-try-rust.vercel.app/
+
+# Crawl-delay (optional, adjust if necessary)
+Crawl-delay: 10
+
+# End of robots.txt
