@@ -5,16 +5,16 @@ export default function NavBar() {
     <>
       <nav>
         <ul className="flex gap-10 justify-center pt-5 pb-5 text-2xl font-thin bg-neutral-800 text-white">
-          <li className=" hover:text-green-600">
+          <li className=" hover:text-green-600 p-2">
             <Link to="/">Home</Link>
           </li>
-          <li className=" hover:text-green-600">
+          <li className=" hover:text-green-600 p-2">
             <Link to="/portfolio">Portfolio</Link>
           </li>
-          <li className=" hover:text-green-600">
+          <li className=" hover:text-green-600 p-2">
             <Link to="/experience">Experience</Link>
           </li>
-          <li className=" hover:text-green-600">
+          <li className=" hover:text-green-600 p-2">
             <a href="#contact-me-id">Contact Me</a>
           </li>
         </ul>
